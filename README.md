@@ -3,7 +3,7 @@
 
 ## Demo
 ###
-![Image text](https://github.com/hacfins/vue3-poster/blob/cc500464d7a359bc401e77ddf653ed5c5b46713b/src/assets/demoa.jpg)
+![Image text]()
 
 ## treeselect.vue
 
@@ -119,7 +119,7 @@ export default {
 ``` bash
 # install dependencies
 npm install
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:3001
 npm run serve
 # build for production with minification
 npm run build
