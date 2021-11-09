@@ -3,7 +3,7 @@
 
 ## Demo
 ###
-![Image text]()
+![Image text](https://github.com/hacfins/vue3-tree-select/blob/8910464c101d266d963369018dc4130d6480e271/src/assets/demo.gif)
 
 ## treeselect.vue
 
