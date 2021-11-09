@@ -1,5 +1,19 @@
 import VueCookies from 'vue-cookies'
 import dtime from 'time-formater'
+import useClipboard from 'vue-clipboard3'
+
+const { toClipboard } = useClipboard();
+
+export const copy = async (str,fn) => {
+    try {
+        await toClipboard(str)
+
+        fn && fn()
+
+    } catch (e) {
+        console.error(e)
+    }
+}
 
 /**
  * 判断客户端类型
@@ -999,17 +1013,6 @@ export const accMul = function(arg1,arg2){
 
     }
     return Number(s1.replace(".",""))*Number(s2.replace(".",""))/Math.pow(10,m)
-}
-
-export const randomPoster = function (cid) {
-    var result = 0
-    for(var i = 0; i < cid.length; i++){
-        result+=cid.charCodeAt(i)
-    }
-
-    var default_cover_arr = [require('assets/fm-1.jpg'),require('assets/fm-2.jpg'),require('assets/fm-3.jpg'),require('assets/fm-4.jpg')];
-    var randomIndex = result % default_cover_arr.length;
-    return default_cover_arr[randomIndex]
 }
 
 

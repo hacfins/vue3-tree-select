@@ -171,13 +171,12 @@ module.exports = {
         clientLogLevel    : 'warning',
         historyApiFallback: {
             //hacfin 路由配置
-            index   : '/html/index.html',
+            index   : '/html/treeselect.html',
             rewrites: [
-                {from: /^\/about(\/.*)*$/, to: '/html/about.html'},
-                {from: /^\/home(\/.*)*$/, to: '/html/home.html'},
+
             ]
         },
-        port              : 3000,
+        port              : 3001,
         overlay           : {
             warnings: false,
             errors  : true

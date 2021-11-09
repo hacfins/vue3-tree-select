@@ -6,7 +6,7 @@ var $_cloud_config = {
     $version: "2.5.0",
     $clouds : [
         {
-            code       : 'account',
+            code       : 'portal',
             name       : "用户中心",
             keywords   : "",
             description: "用户登录注册找回密码的平台，用于其它系统的登陆",
@@ -15,19 +15,9 @@ var $_cloud_config = {
             logo       : "",
             display    : 1
         },
-        {
-            code       : 'pan',
-            name       : "云盘",
-            keywords   : "云盘, 分享, 传输, 存储,  拍照, 上传, 下载,文件, 照片, 相册, 传文件, cloud",
-            description: "云盘是华科飞扬公司为用户精心打造的一项智能云服务, 您可以通过云盘方便地在手机和电脑之间同步文件、推送照片和传输数据",
-            api_url    : "http://192.168.123.22:8223",
-            ui_url     : "http://192.168.123.90:8227",
-            logo       : "",
-            display    : 1
-        },
 
         {
-            code       : 'opens',
+            code       : 'admin',
             name       : "学院",
             keywords   : "",
             description: "公开课为各行业培训场景而生。满足教育线上培训、企业内训、客户产品培训等各行业多场景应用,让培训学习更有价值",
@@ -36,16 +26,6 @@ var $_cloud_config = {
             logo       : "",
             display    : 1
         },
-        // {
-        //     code       : 'edu',
-        //     name       : "云学院",
-        //     keywords   : "",
-        //     description: "云学院，一个专注职业技能提升的在线学习平台。立足于实用性的要求，可申请讲师，聚合了丰富的学习内容，包括课程、文章、短视频、音频等。平台提倡系统化的学习，旨在帮助用户获得全面的、非零散的知识和技能，实现学有所长，并能学以致用！",
-        //     api_url    : "http://192.168.123.22:8233",
-        //     ui_url     : "http://192.168.123.90:8237",
-        //     logo       : "",
-        //     display    : 1
-        // },
         {
             code       : 'live',
             name       : "直播服务器",

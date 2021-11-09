@@ -6,7 +6,7 @@
   RewriteCond %{REQUEST_URI} !^$/
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule "^([^/]*)/?(.*)\.html$" "/web/html/index.html" [L]
+  RewriteRule "^([^/]*)/?(.*)\.html$" "/web/html/poster.html" [L]
   RewriteCond %{REQUEST_URI} !^/h5/
   RewriteCond %{REQUEST_URI} !^$/
   RewriteCond %{REQUEST_FILENAME} !-d
@@ -14,12 +14,12 @@
   RewriteRule "^([^/]*)/?(.*)$" "/web/html/$1.html"
   RewriteCond %{REQUEST_URI} !^/h5/
   RewriteCond %{REQUEST_URI} ^/$
-  RewriteRule "^$" "/web/html/index.html"
+  RewriteRule "^$" "/web/html/poster.html"
 
   RewriteCond %{REQUEST_URI} ^/h5/
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule "^h5/([^/]*)/?(.*)$" "/h5/index.html"
+  RewriteRule "^h5/([^/]*)/?(.*)$" "/h5/poster.html"
 </IfModule>
 
 <IfModule mod_expires.c>

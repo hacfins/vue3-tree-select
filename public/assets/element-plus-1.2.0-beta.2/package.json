@@ -1,0 +1,95 @@
+{
+  "_from": "element-plus",
+  "_id": "element-plus@1.2.0-beta.2",
+  "_inBundle": false,
+  "_integrity": "sha512-A5HpcpgcpoZZgVpAm1fy7sLb5zQj/tafhcJqD7avc4v3NgWDqSa58CNp5B7fpvVhXihRGWssqQjnTh2VczGGfw==",
+  "_location": "/element-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "element-plus",
+    "name": "element-plus",
+    "escapedName": "element-plus",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/element-plus/-/element-plus-1.2.0-beta.2.tgz",
+  "_shasum": "f6c6093405cce55fad45f08d15b8a92dfa72e9c3",
+  "_spec": "element-plus",
+  "_where": "D:\\Code\\vue3-poster",
+  "browserslist": [
+    "> 1%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "bugs": {
+    "url": "https://github.com/element-plus/element-plus/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "@popperjs/core": "^2.10.2",
+    "@vueuse/core": "^6.7.3",
+    "async-validator": "^4.0.7",
+    "dayjs": "^1.10.7",
+    "lodash": "^4.17.21",
+    "memoize-one": "^6.0.0",
+    "normalize-wheel-es": "^1.1.0"
+  },
+  "deprecated": false,
+  "description": "A Component Library for Vue 3",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./es/index.mjs"
+    },
+    "./es": "./es/index.mjs",
+    "./lib": "./lib/index.js",
+    "./*": "./*"
+  },
+  "gitHead": "a524f27017e2ee70b217607019999ea3c35a0385",
+  "homepage": "https://element-plus.org/",
+  "jsdelivr": "dist/index.full.js",
+  "keywords": [
+    "element-plus",
+    "element",
+    "component library",
+    "ui framework",
+    "ui",
+    "vue"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "name": "element-plus",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/element-plus/element-plus.git"
+  },
+  "sideEffects": [
+    "dist/*",
+    "theme-chalk/*.css",
+    "theme-chalk/src/*.scss",
+    "es/components/*/style/*",
+    "lib/components/*/style/*",
+    "lib/components/*/src/**",
+    "es/components/*/src/**"
+  ],
+  "style": "dist/index.css",
+  "unpkg": "dist/index.full.js",
+  "version": "1.2.0-beta.2",
+  "vetur": {
+    "tags": "tags.json",
+    "attributes": "attributes.json"
+  },
+  "web-types": "web-types.json"
+}
