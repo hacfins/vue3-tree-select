@@ -90,10 +90,10 @@ export default {
      place_holder:'请选择',
      data : [],
      props: {
-          children: 'children',
-          label: 'sr_name',
-          value:'sr_id',
-          isLeaf: 'leaf'
+              children: 'children',
+              label: 'name',
+              value:'value',
+              isLeaf: 'leaf'
           }
     }
     ```
