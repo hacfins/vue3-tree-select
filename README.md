@@ -84,7 +84,19 @@ export default {
 
 * `treeParams {Object}`
 
-  Default `{}`.
+    Default:
+    ```js
+    {
+     place_holder:'请选择',
+     data : [],
+     props: {
+          children: 'children',
+          label: 'sr_name',
+          value:'sr_id',
+          isLeaf: 'leaf'
+          }
+    }
+    ```
 
 #### 组件props解释
 
