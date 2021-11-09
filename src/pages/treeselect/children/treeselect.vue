@@ -11,17 +11,18 @@
 	export default {
         data(){
             return{
+                //select-tree 参数
                 treeParams:{
                     place_holder:'请选择',
-                    data: [],
-                    props: {
+                    data: [],//tree_data
+                    props: {//数据的配置项
                         children: 'children',
                         label: 'sr_name',
                         value:'sr_id',
                         isLeaf: 'leaf',
                     }
                 },
-                values:[]
+                values:[],//默认选中的节点
 			}
 		},
 		components: {
