@@ -1,5 +1,5 @@
 # vue3-tree-select
-基于el-select和el-tree改造的树形选择器
+基于elementUI的el-popover和el-tree改造的树形选择器
 
 ## Demo效果
 ###
