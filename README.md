@@ -1,7 +1,7 @@
 # vue3-tree-select
 基于el-select和el-tree改造的树形选择器
 
-## Demo
+## Demo效果
 ###
 ![Image text](https://github.com/hacfins/vue3-tree-select/raw/master/src/assets/demo.gif)
 
