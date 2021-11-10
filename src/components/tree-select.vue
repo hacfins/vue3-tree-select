@@ -59,7 +59,6 @@
 
 <script>
     import { addResizeListener, removeResizeListener } from '@/config/resize-event'
-
     export default {
         props:{
             treeParams:{
